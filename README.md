@@ -1,5 +1,5 @@
 # PostgreSQL flavored Common Education Data Standards Database
-Initial pass at porting the T-SQL provided at (https://ceds.ed.gov/data/ceds-nds-v5-sqlserver2008.zip)[https://ceds.ed.gov/data/ceds-nds-v5-sqlserver2008.zip].  The script suggests using ```CREATE DATABASE CEDS;``` prior to running the script and connecting to that database, but it is not necessary.  The script first creates the ceds schema ````CREATE SCHEMA ceds;``` and then begins building out tables, indices, and defining the primary/foreign key constraints.  
+Initial pass at porting the T-SQL provided at [https://ceds.ed.gov/data/ceds-nds-v5-sqlserver2008.zip](https://ceds.ed.gov/data/ceds-nds-v5-sqlserver2008.zip).  The script suggests using ```CREATE DATABASE CEDS;``` prior to running the script and connecting to that database, but it is not necessary.  The script first creates the ceds schema ````CREATE SCHEMA ceds;``` and then begins building out tables, indices, and defining the primary/foreign key constraints.  
 
 
 ## TODO
